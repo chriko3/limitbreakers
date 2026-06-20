@@ -27,9 +27,5 @@ footer {
 }
 
 .footer-right img {
-    height: 56px;
-}
-
-.footer-right img:hover {
-    cursor: pointer;
+    height: 46px;
 }

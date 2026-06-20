@@ -1,78 +1,100 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>☆Limit Breakers TCG☆</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/sparkle.png">
+    <link rel="icon" type="image/x-icon" href="./assets/img/sparkle.png" />
 
-    <link rel="stylesheet" href="./assets/styles/basicStyles.css">
-    <link rel="stylesheet" href="./assets/styles/header.css">
-    <link rel="stylesheet" href="./assets/styles/footer.css">
-    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link rel="stylesheet" href="./assets/styles/basicStyles.css" />
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
 
-    <link rel="stylesheet" href="./assets/styles/fonts.css">
-    <link rel="stylesheet" href="./assets/styles/scrollbar.css">
-    <link rel="stylesheet" href="./assets/styles/mediaQueries.css">
+    <link rel="stylesheet" href="./assets/styles/fonts.css" />
+    <link rel="stylesheet" href="./assets/styles/scrollbar.css" />
+    <link rel="stylesheet" href="./assets/styles/mediaQueries.css" />
 
-</head>
+    <script src="./assets/scripts/basicScripts.js"></script>
+  </head>
 
-<body>
+  <body>
     <header id="home">
-        <div class="header-left">
-            <a href="index.html">
-                <img src="./assets/img/logoBig.png" alt="logo">
-            </a>
-        </div>
-        <div class="header-right">
-            <a href="index.html">
-                <p>ALLE EDITIONEN</p>
-            </a>
+      <div class="header-left">
+        <a href="index.html">
+          <img src="./assets/img/logoBig.png" alt="logo" />
+        </a>
+      </div>
+      <div class="header-right">
+        <a href="index.html">
+          <p>ALLE EDITIONEN</p>
+        </a>
 
-            <a href="https://discord.gg/ultrarare" target="_blank">
-                <p>TAUSCHEN</p>
-            </a>
-        </div>
+        <a href="https://discord.gg/ultrarare" target="_blank">
+          <p>TAUSCHEN</p>
+        </a>
+      </div>
     </header>
     <main>
-        <div class="main-container">
-            <a href="OverdriveOrigins.html">
-                <div class="card-editions">
-                    <img class="card-editions-logo" src="./assets/edition/overdriveOrigins/OverdriveOrigins.png" alt="overdrive origins">
-                    <span>Erscheinungsdatum: 26. April 2025</span>
-                    <span>Das Komplette Set enthält 25 Karten</span>
-                </div>
-            </a>
-        </div>
+      <div class="main-container">
+        <a onclick="openPage('oo')">
+          <div class="card-editions">
+            <img
+              class="card-editions-logo"
+              src="./assets/img/overdriveorigins.png"
+              alt="overdrive origins"
+            />
+            <span>-OVERDRIVE ORIGINS-</span>
+            <span>Erscheinungsdatum: 26. April 2025</span>
+            <span>Das Komplette Set enthält 25 Karten</span>
+          </div>
+        </a>
 
+        <a onclick="openPage('ur')">
+          <div class="card-editions">
+            <img
+              class="card-editions-logo"
+              src="./assets/img/ultrarush.png"
+              alt="overdrive origins"
+            />
+            <span>-ULTRA RUSH-</span>
+            <span>Erscheinungsdatum: 26. April 2026</span>
+            <span>Das Komplette Set enthält 36 Karten</span>
+          </div>
+        </a>
+      </div>
     </main>
     <footer>
-        <div class="footer-left">
-            <a href="#home">
-                <img src="./assets/img/logoBig.png" alt="logo">
-            </a>
-            <span>Dies ist ein Fan-Projekt. Alle Grafiken und Inhalte gehören UltraRare.</span>
-        </div>
-        <div class="footer-right">
-            <a href="https://www.github.com/chriko3" target="_blank">
-                <img src="./assets/icons/github.png" alt="github">
-            </a>
-            <a href="https://www.instagram.com/ultrarareonline/" target="_blank">
-                <img src="./assets/icons/instagram.png" alt="instagram">
-            </a>
-            <a href="https://www.youtube.com/channel/UCSm_ocs7tXSb5El9OuUr-n" target="_blank">
-                <img src="./assets/icons/youtube.png" alt="youtube">
-            </a>
-            <a href="https://discord.gg/ultrarare" target="_blank">
-                <img src="./assets/icons/discord.png" alt="discord">
-            </a>
+      <div class="footer-left">
+        <a href="#home">
+          <img src="./assets/img/logoBig.png" alt="logo" />
+        </a>
+        <span
+          >Dies ist ein Fan-Projekt. Alle Grafiken und Inhalte gehören
+          UltraRare.</span
+        >
+      </div>
+      <div class="footer-right">
+        <a href="https://www.github.com/chriko3" target="_blank">
+          <img src="./assets/icons/github.png" alt="github" />
+        </a>
+        <a href="https://www.instagram.com/ultrarareonline/" target="_blank">
+          <img src="./assets/icons/instagram.png" alt="instagram" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCSm_ocs7tXSb5El9OuUr-n"
+          target="_blank"
+        >
+          <img src="./assets/icons/youtube.png" alt="youtube" />
+        </a>
+        <a href="https://discord.gg/ultrarare" target="_blank">
+          <img src="./assets/icons/discord.png" alt="discord" />
+        </a>
 
-            <a href="https://ultrarare.store/" target="_blank">
-                <img src="./assets/icons/web.png" alt="online shop">
-            </a>
-        </div>
+        <a href="https://ultrarare.store/" target="_blank">
+          <img src="./assets/icons/web.png" alt="online shop" />
+        </a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
